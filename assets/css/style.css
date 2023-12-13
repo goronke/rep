@@ -1,0 +1,252 @@
+@font-face 
+{ 
+    font-family: "YanoneKaffeesatzExtraLight";
+    src: url("../fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.eot");
+    src: url("../fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.woff") format("woff"),
+    url("../fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 200;
+}
+
+a 
+{
+	font-family: "YanoneKaffeesatzExtraLight";
+	text-decoration: none;
+	color:  #c6c8c8;
+}
+
+h1
+{
+	margin-top: 0;
+}
+
+body
+{
+	margin: 0;
+}
+
+.header
+{
+	width: 100%;
+	height: 140px;
+	display: flex;
+	background-image: url("images/bg01.jpg") ;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+}
+
+
+#logo 
+{
+	padding-top: 40px;
+	padding-left: 16.6667%;
+	display: inline-block;
+	border:0;
+  	margin:0;
+  	font-size: 1.5rem;
+}
+
+#navs
+{
+	padding-top:57px;
+	padding-left: 21%;
+	display: inline-block;
+	border: px;
+  	margin: px;
+  	font-size: 1.6rem;	
+}
+
+#logo_a
+{
+	
+	color: white;
+}
+
+#nav_a
+{
+	padding: 30px;
+}
+
+.banner
+{
+	width: 100%;
+	height: 480px;
+	display: flex;
+	background-image: url("images/bg01.jpg") ;
+	box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+}
+
+#banner_1
+{
+	padding-left: 16.6667%;
+	padding-top: 50px;	
+	display: inline-block;
+	width: 440px;
+}
+
+#button 
+{
+	padding-top: 50px;
+	display: block;
+}
+
+.button-big {
+		background-image: linear-gradient(top, #ed391b, #ce1a00);
+		background-color: #ed391b;
+		color: #fff;
+		text-decoration: none;
+		font-size: 1.75em;
+		font-weight: 300;
+		padding: 15px 45px 15px 45px;
+		outline: 0;
+		border-radius: 10px;
+		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+	}
+
+		.button-big:hover {
+			background-image: linear-gradient(top, #fd492b, #de2a10);
+			background-color: #fd492b;
+			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+		}
+
+		.button-big:active {
+			background-image: linear-gradient(top, #ce1a00, #ed391b);
+			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+		}
+
+#banner_text
+{
+	font-size: 2.0rem;
+	color: white;
+}
+
+#banner_2
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 590px;
+	height: 390px;
+	display: inline-block;
+	margin-left: 10%;
+}
+
+.banner_img
+{
+	padding-right: 16.6667%;
+	width: 30.7%;
+	height: 380px;
+}
+
+.info-wrapper 
+{
+	display: flex;
+	padding-top: 0px;
+	padding-bottom: 50px;
+	background-image: url("images/bg04.jpg");
+	box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.info
+{
+	margin-left: 17.6667%;
+	width: 100%;
+	margin-right: 15.6667%;
+}
+
+
+#block 
+{
+	margin-top: 50px;
+	display: inline-block;
+	width: 21.4375%;
+	margin-left: 2%;
+	vertical-align: top
+}
+
+
+#info_h
+{
+	font-family: "YanoneKaffeesatzExtraLight";
+	color: #fff;
+}
+
+.footer-wrapper 
+{
+	display: flex;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: url("images/bg03.jpg");
+	box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.footer
+{
+	margin-left: 16.6667%;
+	width: 100%;
+	margin-right: 16.6667%;
+}
+
+#footer-block-1
+{
+	display: inline-block;
+	width: 45%;
+	margin-left: 2%;
+	vertical-align: top
+}
+
+#footer-block-2
+{
+	text-align: right;
+	display: inline-block;
+	width: 36%;
+	margin-left: 12%;
+}
+
+#footer_h
+{
+	font-family: "YanoneKaffeesatzExtraLight";
+	color: black;
+}
+
+#footer-text
+{
+	font-family: "YanoneKaffeesatzExtraLight";
+	color: black
+	text-size: 1.5rem;
+}
+
+
+.banner_reverse
+{
+	width: 100%;
+	height: 480px;
+	display: flex;
+	background-image: url("images/bg04.jpg") ;
+	box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+}
+
+#product
+{
+	margin-top: 50px;
+	display: inline-block;
+	width: 21.4375%;
+	margin-left: 2%;
+	vertical-align: top;
+	text-align: center;
+}
+
+#buy
+{
+	font-family: "YanoneKaffeesatzExtraLight";
+	color: #FF0000;
+}
